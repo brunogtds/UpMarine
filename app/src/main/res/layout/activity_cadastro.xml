@@ -13,31 +13,53 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textUpMarine"
-        android:layout_width="match_parent"
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:text="@string/app_name"
-        android:textSize="40dp"
-        android:textColor="@color/upmarine"
-        android:layout_marginBottom="30dp"/>
-
-    <TextView
-        android:id="@+id/textCadastro"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:gravity="left"
-        android:text="Cadastro"
-        android:textSize="30dp"
-        android:textColor="@color/upmarine"
-        android:layout_marginBottom="5dp"/>
+        android:inputType="textPersonName"
+        android:text="Nome"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="10dp"/>
 
     <EditText
-        android:layout_width="match_parent"
+        android:id="@+id/emailBox"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/box_shape"
+        android:ems="100"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Nome"
-        android:inputType="textPersonName"/>
+        android:text="E-mail"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:ems="4"
+        />
+
+    <EditText
+        android:id="@+id/nameBox"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:background="@drawable/box_shape"
+        android:singleLine="true" />
+
+    <ImageView
+            android:id="@+id/logo"
+            android:src="@drawable/submarine_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="250dp"
+            android:layout_gravity="center"
+            />
+
 
 </LinearLayout>
