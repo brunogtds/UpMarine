@@ -39,7 +39,7 @@
         android:gravity="center"
         android:layout_gravity="center"
         android:text="Cadastrar"
-        android:background="@color/amarelo"/>
+        android:background="@drawable/button_shape"/>
 
 
 

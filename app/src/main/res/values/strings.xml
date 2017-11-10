@@ -1,8 +1,6 @@
 <resources>
     <string name="app_name">UpMarine</string>
-    <string name="textoInicial">Bem Vindo ao UpMarine!\nSerá feito um rápido cadastro antes de começar sua interação no site.</string>
     <string name="textoCadastro">Insira seus dados nos correpondentes espaços e vamos começar!</string>
-=======
     <string name="textoInicial">Bem Vindo ao UpMarine!\nSerá feito um rápido cadastro antes de começar sua interação no app.</string>
     <string name="textoDicas">Manter uma alimentação \n saúdavel pode ajudar a \n sua saúde mental.</string>
 </resources>
