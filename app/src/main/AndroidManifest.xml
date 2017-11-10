@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Cadastro" />
-        <activity android:name=".TelaPrincipal"></activity>
+        <activity android:name=".TelaPrincipal" />
+        <activity android:name=".TelaMensagem"></activity>
     </application>
 
 </manifest>
