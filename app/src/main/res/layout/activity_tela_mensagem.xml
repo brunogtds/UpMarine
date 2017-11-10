@@ -32,4 +32,12 @@
         android:id="@+id/button"
         android:layout_alignTop="@+id/editText" />
 
+    <Button
+        android:text="Dicas"
+        android:background="@color/fundo"
+        android:id="@+id/button_dicas"
+        android:layout_width="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_height="40dp" />
+
 </RelativeLayout>

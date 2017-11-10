@@ -45,7 +45,8 @@
         android:textSize="30dp"
         android:fontFamily="sans-serif-condensed"
         android:textAlignment="center"
-        android:background="@drawable/button_shape"/>
+        android:background="@drawable/button_shape"
+        android:id="@+id/button_cadastrar" />
 
 
 
