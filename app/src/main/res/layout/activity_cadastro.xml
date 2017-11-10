@@ -13,12 +13,25 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/texto2"
+        android:text="@string/textoCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/upmarine"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
         android:id="@+id/nome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:text="Nome"
         android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed"
         android:textColor="@android:color/white"
         android:layout_marginBottom="10dp"/>
 
@@ -40,7 +53,7 @@
         android:textColor="@android:color/white"
         android:fontFamily="sans-serif-condensed"
         android:ems="4"
-        />
+/>
 
     <EditText
         android:id="@+id/nameBox"
@@ -52,14 +65,13 @@
         android:singleLine="true" />
 
     <ImageView
-            android:id="@+id/logo"
-            android:src="@drawable/submarine_icon"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="250dp"
-            android:layout_gravity="center"
-            />
+        android:id="@+id/logo"
+        android:src="@drawable/submarine_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center"/>
 
 
 </LinearLayout>
