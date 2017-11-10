@@ -27,12 +27,12 @@
                 android:width="10dp"
                 android:color="#ffff00"/>
             <corners
-                android:radius="14dp"/>
+                android:radius="20dp"/>
             <padding
-                android:bottom="50dp"
+                android:bottom="20dp"
                 android:left="50dp"
                 android:right="50dp"
-                android:top="50dp"/>
+                android:top="20dp"/>
         </shape>
     </item>
 </selector>
