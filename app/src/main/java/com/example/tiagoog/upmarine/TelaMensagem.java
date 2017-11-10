@@ -8,14 +8,20 @@ import android.widget.Button;
 
 public class TelaMensagem extends AppCompatActivity {
 
-    private Button botaoDicas = (Button) findViewById(R.id.button_dicas);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        System.out.println("criou o Tela mensagem");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_mensagem);
+
+        Button botaoDicas = (Button) findViewById(R.id.button_dicas);
+        System.out.println("criou botão");
         botaoDicas.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                System.out.println("criou o listener mensagem");
                 Intent it = new Intent(TelaMensagem.this,Dicas.class);
+                System.out.println("vai chamar dicas");
                 startActivity(it);
             }
         });

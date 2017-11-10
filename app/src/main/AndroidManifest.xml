@@ -18,6 +18,7 @@
         <activity android:name=".Cadastro" />
         <activity android:name=".TelaPrincipal" />
         <activity android:name=".TelaMensagem"></activity>
+        <activity android:name=".Dicas"></activity>
     </application>
 
 </manifest>
