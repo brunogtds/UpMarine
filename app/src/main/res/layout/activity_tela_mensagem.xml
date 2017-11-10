@@ -30,6 +30,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:id="@+id/button"
+        android:background="@color/amarelo"
         android:layout_alignTop="@+id/editText" />
 
     <Button
@@ -39,6 +40,8 @@
         android:layout_width="50dp"
         android:layout_alignParentEnd="true"
         android:layout_height="40dp"
-        android:elevation="5dp" />
+        android:elevation="5dp"
+        android:backgroundTint="@color/amarelo"
+        />
 
 </RelativeLayout>

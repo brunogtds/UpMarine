@@ -61,5 +61,6 @@
         android:text="Retornar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button_returno_dicas" />
+        android:id="@+id/button_returno_dicas"
+        android:background="@color/amarelo"/>
 </LinearLayout>
