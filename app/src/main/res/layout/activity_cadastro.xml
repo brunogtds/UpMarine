@@ -22,7 +22,7 @@
         android:textColor="@color/upmarine"
         android:fontFamily="sans-serif-condensed"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="50dp"/>
+        android:layout_marginBottom="30dp"/>
 
     <TextView
         android:id="@+id/nome"
@@ -36,10 +36,10 @@
         android:layout_marginBottom="10dp"/>
 
     <EditText
-        android:id="@+id/emailBox"
-        android:layout_width="300dp"
+        android:id="@+id/nomeBox"
+        android:layout_width="350dp"
         android:layout_height="50dp"
-        android:inputType="textEmailAddress"
+        android:inputType="textPersonName"
         android:background="@drawable/box_shape"
         android:ems="100"
         android:layout_marginBottom="10dp"/>
@@ -56,22 +56,28 @@
 />
 
     <EditText
-        android:id="@+id/nameBox"
-        android:layout_width="300dp"
+        android:id="@+id/emailBox"
+        android:layout_width="350dp"
         android:layout_height="50dp"
-        android:inputType="textPersonName"
+        android:inputType="textEmailAddress"
         android:ems="10"
         android:background="@drawable/box_shape"
-        android:singleLine="true" />
+        android:singleLine="true"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Próximo passo"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginBottom="20dp"/>
 
     <ImageView
         android:id="@+id/logo"
         android:src="@drawable/submarine_icon"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="90dp"
         android:layout_gravity="center"/>
-
 
 </LinearLayout>
